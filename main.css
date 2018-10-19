@@ -12,8 +12,9 @@ header {
   padding: 0px;
 }
 
-.header h1 {
+header h1 {
   text-align: center;
+  padding-top: 32px;
 }
 
 .container {
@@ -22,7 +23,6 @@ header {
   top:0;
   padding-left: 10%;
   padding-right: 10%;
-  background-color: white;
 }
 
 .grid {
@@ -36,27 +36,28 @@ header {
 }
 
 .grid div:nth-child(1) {
-  background: red;
+  <p>
+  <img src="red.jpg"
 }
 
 .grid div:nth-child(2) {
-  background: blue;
+  <img src="red.jpg">;
 }
 
 .grid div:nth-child(3) {
-  background: green;
+  <img src="red.jpg">;
 }
 
 .grid div:nth-child(4) {
-  background: yellow;
+  <img src="red.jpg">;
 }
 
 .grid div:nth-child(5) {
-  background: purple;
+  <img src="red.jpg">;
 }
 
 .grid div:nth-child(6) {
-  background: orange;
+  <img src="red.jpg">;
 }
 
 .grid div:nth-child(1):hover {
@@ -68,7 +69,7 @@ header {
 }
 
 .grid div:nth-child(3):hover {
-  background: green;
+  background: darkgreen;
 }
 
 .grid div:nth-child(4):hover {
@@ -81,4 +82,8 @@ header {
 
 .grid div:nth-child(6):hover {
   background: orange;
+}
+
+footer {
+  text-align: center;
 }
