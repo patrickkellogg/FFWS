@@ -1,6 +1,13 @@
+* {
+margin: 0;
+padding: 0;
+}
+
 body {
-  font-family: Sans-Serif;
+  font-family: 'Didact Gothic';font-size: 22px;
   background-color: green;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -9,51 +16,44 @@ header {
   text-align: center;
   height: 100px;
   top: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 header h1 {
   text-align: center;
-  padding-top: 32px;
+  padding-top: 19px;
 }
 
 .container {
   width: 60%;
   position: relative;
-  top:0;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 20%;
   padding-right: 20%;
 }
 
+main {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-top: 20px;
+}
+
 .grid {
   display: grid;
-  /* column specifies width */
-  /* row specifies height */
   grid-template: 180px 180px / 200px 200px 200px;
   grid-row-gap: 5px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 20px;
+
 }
 
 .grid-div {
-  padding-top:20px;
-}
-
-.grid div:nth-child(1) {
-}
-
-.grid div:nth-child(2) {
-}
-
-.grid div:nth-child(3) {
-}
-
-.grid div:nth-child(4) {
-}
-
-.grid div:nth-child(5) {
-}
-
-.grid div:nth-child(6) {
+  padding-top: 20px;
 }
 
 .grid div:nth-child(1):hover {
@@ -82,4 +82,5 @@ header h1 {
 
 footer {
   text-align: center;
+  padding-top: 20px;
 }
